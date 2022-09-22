@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const darkThemeFile = 'https://gitcdn.link/cdn/onemomentcdn/onemoment/main/dark-theme.min.css';
+    const darkThemeFile = 'https://gitcdn.link/cdn/onemomentcdn/onemoment/main/theme-dark.min.css';
     const head = document.querySelector('head');
     head.insertAdjacentHTML('beforeend', `<link rel="stylesheet" href=${darkThemeFile}>`);
 
