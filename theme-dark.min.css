@@ -341,7 +341,9 @@
 [data-theme=dark] .btn_blue-gradient:before {
     background-image: none
 }
-
+[data-theme=dark] .konkurs_timer_bl__item_num, [data-theme=dark] .konkurs_timer_bl__title, [data-theme=dark] .countdown_clock__item_text, [data-theme=dark] .countdown_clock__item_number, [data-theme=dark] .konkurs_participation__title{
+    color: #B3B3B3;
+}
 [data-theme=light] .main-wrap--active {
     background: url(https://raw.githubusercontent.com/onemomentcdn/onemoment/main/bg.png) center center no-repeat;
     background-size: cover;
