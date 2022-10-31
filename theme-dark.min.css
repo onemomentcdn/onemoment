@@ -5,7 +5,9 @@
 [data-theme=dark] body {
     color: #b3b3b3
 }
-
+[data-theme=dark] .nav_toggle{
+    background-color: #5568d4 !important;
+}
 .settings-option {
     padding: .5em 1em;
     border-radius: 5px;
@@ -341,8 +343,11 @@
 [data-theme=dark] .btn_blue-gradient:before {
     background-image: none
 }
-[data-theme=dark] .konkurs_timer_bl__item_num, [data-theme=dark] .konkurs_timer_bl__title, [data-theme=dark] .countdown_clock__item_text, [data-theme=dark] .countdown_clock__item_number, [data-theme=dark] .konkurs_participation__title{
+[data-theme=dark] .konkurs_timer_bl__item_num, [data-theme=dark] .konkurs_participation__li, [data-theme=dark] .countdown_clock__item_column, [data-theme=dark] .konkurs_timer_bl__title, [data-theme=dark] .countdown_clock__item_text, [data-theme=dark] .countdown_clock__item_number, [data-theme=dark] .konkurs_participation__title{
     color: #B3B3B3;
+}
+[data-theme=dark] .konkurs_participation__li:before{
+    filter: brightness(0) invert(1);
 }
 [data-theme=light] .main-wrap--active {
     background: url(https://raw.githubusercontent.com/onemomentcdn/onemoment/main/bg.png) center center no-repeat;
