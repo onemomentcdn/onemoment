@@ -342,7 +342,7 @@
     background-image: none
 }
 
-[data-theme=light] .mainWrap--active {
+[data-theme=light] .main-wrap--active {
     background: url(https://raw.githubusercontent.com/onemomentcdn/onemoment/main/bg.png) center center no-repeat;
     background-size: cover;
 }
