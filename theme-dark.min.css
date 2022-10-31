@@ -6,7 +6,7 @@
     color: #b3b3b3
 }
 [data-theme=dark] .nav_toggle{
-    background-color: #5568d4 !important;
+    background-color: #1c1c27 !important;
 }
 .settings-option {
     padding: .5em 1em;
@@ -29,8 +29,8 @@
     display: inline-block;
     vertical-align: middle;
     flex: 1;
+    color: #fff;
     margin-right: 2em;
-    color: #b3b3b3
 }
 
 .theme-toggler__switch {
@@ -343,7 +343,7 @@
 [data-theme=dark] .btn_blue-gradient:before {
     background-image: none
 }
-[data-theme=dark] .konkurs_timer_bl__item_num, [data-theme=dark] .konkurs_participation__li, [data-theme=dark] .countdown_clock__item_column, [data-theme=dark] .konkurs_timer_bl__title, [data-theme=dark] .countdown_clock__item_text, [data-theme=dark] .countdown_clock__item_number, [data-theme=dark] .konkurs_participation__title{
+[data-theme=dark] .konkurs_timer_bl__item_num, [data-theme=dark] .theme-toggler__label, [data-theme=dark] .konkurs_participation__li, [data-theme=dark] .countdown_clock__item_column, [data-theme=dark] .konkurs_timer_bl__title, [data-theme=dark] .countdown_clock__item_text, [data-theme=dark] .countdown_clock__item_number, [data-theme=dark] .konkurs_participation__title{
     color: #B3B3B3;
 }
 [data-theme=dark] .konkurs_participation__li:before{
