@@ -433,7 +433,7 @@
 }
 
 [data-theme=dark] .case .page__wrap .text h5,
-.case .page__wrap .text ol {
+[data-theme=dark] .case .page__wrap .text ol {
   background: #3E3F54;
   color: #B3B3B3;
 }
