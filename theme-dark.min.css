@@ -353,3 +353,95 @@
     background: url(https://raw.githubusercontent.com/onemomentcdn/onemoment/main/bg.png) center center no-repeat;
     background-size: cover;
 }
+.case .page__wrap h4 {
+  margin-bottom: 25px;
+}
+
+.case .page__wrap .text h5 {
+  font-size: 18px;
+  color: #383D41;
+  font-weight: 700;
+  padding: 25px 72.6px 25px 25px;
+  background: #F3F4F5;
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 0;
+  border-radius: 10px 10px 0 0;
+  position: relative;
+}
+
+.case .page__wrap .text h5:before {
+  width: 46px;
+  height: 46px;
+  content: '';
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  border-radius: 50%;
+  background-color: #FFFFFF;
+  background-image: url('https://raw.githubusercontent.com/onemomentcdn/onemoment/afc2664190207a0d70dd664bbc9d9c5b560b493d/plus.svg');
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.case .page__wrap .text h5:hover:before {
+  background-color: #4CA4E4;
+  background-image: url('https://raw.githubusercontent.com/onemomentcdn/onemoment/9df2eb7f14720564a3518864140ed05bcb20507d/active-plus.svg');
+}
+
+.case .page__wrap .text ol {
+  border-radius: 0 0 10px 10px;
+  background: #F3F4F5;
+  padding: 0 25px;
+  max-height: 0;
+  overflow: hidden;
+}
+
+.case .page__wrap .text .activeAccodionTrigger:before {
+  transform: translateY(-50%) rotate(45deg);
+}
+
+.case .page__wrap .text .activeAccordion {
+  max-height: 100%;
+}
+
+.case .text .ol-group .count,
+.case .text {
+  color: #383D41;
+}
+
+@media screen and (max-width: 991px) {
+  .case .page__wrap .text h5:before {
+    width: 35px;
+    height: 35px;
+    right: 10px;
+    background-size: 20px;
+  }
+
+  .case .page__wrap .text h5 {
+    padding: 25px 60.5px 25px 25px;
+  }
+}
+
+[data-theme=dark] .text {
+  color: #b3b3b3;
+}
+
+[data-theme=dark] .case .page__wrap .text h5,
+.case .page__wrap .text ol {
+  background: #3E3F54;
+  color: #B3B3B3;
+}
+
+[data-theme=dark] .case .text .ol-group .count {
+  color: #B3B3B3;
+}
+
+[data-theme=dark] .case .page__wrap .text h5:before {
+  background-color: #28293d;
+}
+
+[data-theme=dark] .case .page__wrap .text h5:hover:before {
+  background-color: #5568d4;
+}
