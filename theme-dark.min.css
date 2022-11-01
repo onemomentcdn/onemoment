@@ -29,10 +29,14 @@
     display: inline-block;
     vertical-align: middle;
     flex: 1;
-    color: #fff;
+    color: #878792;
     margin-right: 2em;
 }
-
+@media screen and (max-width: 1200px){
+    .theme-toggler__label {
+        color: #fff;
+    }
+}
 .theme-toggler__switch {
     width: 50px;
     height: 25px;
